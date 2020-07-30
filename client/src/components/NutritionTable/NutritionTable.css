@@ -1,0 +1,42 @@
+.nutrition-table__row {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.1);
+}
+
+.nutrition-table__row:nth-child(2n) {
+  background-color: rgba(100, 100, 100, 0.05);
+}
+
+.nutrition-table__row:last-child {
+  border: none;
+}
+
+.nutrition-table__select-body,
+.nutrition-table__label {
+  text-align: center;
+  font-size: 14px;
+}
+
+.nutrition-table__label_sortable {
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.nutrition-table__label_sortable .sort-icon {
+  margin-left: 5px;
+}
+
+.sort__arrow {
+  transition: 150ms;
+}
+
+.nutrition-table__label_sortable:hover .sort__arrow {
+  fill: #316ecf;
+}

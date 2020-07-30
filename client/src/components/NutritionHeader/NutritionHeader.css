@@ -1,0 +1,67 @@
+.nutrition-header__heading {
+  padding: 10px 5px;
+}
+
+.nutrition-header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nutrition-header__title {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+button {
+  transition: 150ms;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+.nutrition-header__reset {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #377555;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.nutrition-header__cta {
+  background-color: #fae0e0;
+  padding: 15px 20px;
+  margin-top: 10px;
+  border-radius: 4px 4px 0 0;
+}
+
+.nutrition-header__number-selected {
+  color: #d159a1;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nutrition-header__action {
+  padding: 10px 15px;
+  background-color: #fff;
+  font-size: 12;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nutrition-header__action:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.nutrition-header__action_add {
+  color: #377555;
+  margin-right: 15px;
+}
+
+.nutrition-header__action_delete {
+  color: rgba(255, 0, 0, 0.8);
+}

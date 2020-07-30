@@ -1,0 +1,9 @@
+.nutrition-list {
+  max-width: 1000px;
+  min-width: 450px;
+  overflow-y: auto;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(50, 50, 50, 0.1);
+}
